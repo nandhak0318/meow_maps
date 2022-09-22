@@ -1,0 +1,15 @@
+$primary-color: #B1B2FF;
+
+.nav{
+  width: 100%;
+  background-color: $primary-color;
+}
+
+.nav_wrap{
+  max-width: 1280px;
+  padding: 1em 2em;
+  margin: 0 auto;
+  h1{
+    color: white;
+  }
+}

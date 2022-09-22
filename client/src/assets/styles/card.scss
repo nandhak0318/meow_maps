@@ -1,0 +1,71 @@
+.card {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  width: 80vw;
+  min-width: 300px;
+  max-width: 450px;
+  min-height: 200px;
+  margin: 1.5em 1em;
+  padding: 20px;
+  box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  border: 0;
+  transition: all ease-in-out 0.5s;
+  .circle {
+    border-radius: 3px;
+    width: 100px;
+    height: 100px;
+    background: black;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    border-bottom-left-radius: 170px;
+  }
+  .content {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  h2 {
+    text-decoration: none !important;
+    color: rgba(255, 255, 255, .87);;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+  }
+  .social {
+    margin-bottom: 5px;
+      a {
+   text-decoration: none !important;
+   color: rgba(255, 255, 255, .87);;
+    margin-left: 8px;
+    font-weight: 300;
+    i {
+      font-weight: 400;
+    }
+  }
+  }
+  .location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    i {
+      color: red;
+    }
+    p {
+      font-weight: 300;
+    }
+  }
+  }
+
+.card:hover{
+  transform: scale(1.01);
+
+}
