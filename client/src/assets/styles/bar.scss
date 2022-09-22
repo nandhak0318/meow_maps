@@ -1,0 +1,76 @@
+.sidebar::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background: #8070d4;
+  border: 6px solid #AAC4FF;
+  border-radius: 100px;
+}
+.sidebar::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px #AAC4FF;
+	background-color: #F5F5F5;
+  border-radius: 100px;
+}
+
+.sidebar::-webkit-scrollbar
+{
+  border-radius: 100px;
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+.sidebar::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
+
+.sidebar{
+  overflow-y: scroll;
+h1{
+  font-size: 1.1em;
+  color:  rgb(235, 235, 235);
+}
+ul{
+  margin-bottom: .9em;
+}
+
+li{
+  list-style: none;
+  margin-left: .8em;
+}
+li:hover{
+  text-decoration: underline white; 
+}
+Link{
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+p{
+  font-family:  sans-serif;
+  font-size: 0.8em;
+  font-weight: 500;
+  color:  rgba(235, 235, 235, 0.818);
+}
+
+max-width: 240px;
+width: 30vw;
+max-height:-webkit-fill-available;
+max-height: -moz-available;
+max-height:  fill-available;
+max-height: 91vh;
+  min-height: -moz-available;
+  min-height: -webkit-fill-available;
+  min-height: fill-available;
+// box-shadow:
+//       0 1px 1px hsl(0deg 0% 0% / 0.075),
+//       0 2px 2px hsl(0deg 0% 0% / 0.075),
+//       0 4px 4px hsl(0deg 0% 0% / 0.075),
+//       0 8px 8px hsl(0deg 0% 0% / 0.075),
+//       0 16px 16px hsl(0deg 0% 0% / 0.075)
+//     ;
+
+}
