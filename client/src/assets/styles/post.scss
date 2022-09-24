@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+
+$bg: #424242;
+$titlebarBg: #212121;
+$text: #bdbdbd;
+
+
+.shet{
+  margin: .8em 0 0 .5em;
+  h1,h2,h3,h4,h5{
+    color: #f1ebeb;
+  }
+  
+  p,a{
+    color: $text;
+  }
+
+}
+

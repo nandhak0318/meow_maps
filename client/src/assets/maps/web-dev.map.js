@@ -4,6 +4,7 @@ export default {
   desc:"A roadmap for become a web developer",
   aurthor_note:"",
   code:"web_dev_roadmap",
+  md:"web_dev.md",
   chapters:[
     {
       tittle: "The internet",

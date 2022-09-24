@@ -57,6 +57,7 @@ p{
 }
 
 max-width: 240px;
+min-width: 230px;
 width: 30vw;
 max-height:-webkit-fill-available;
 max-height: -moz-available;
@@ -73,4 +74,42 @@ max-height: 91vh;
 //       0 16px 16px hsl(0deg 0% 0% / 0.075)
 //     ;
 
+}
+
+@media screen and (min-width:800px) {
+  
+  .close{
+    display: none;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .withbar{
+    position: relative;
+    .close{
+      position: absolute;
+      right: 1em;
+      cursor: pointer;
+        font-weight: bolder;
+        font-size: 1.2em;
+    }
+    .arrow{
+       cursor: pointer;
+        font-weight: bolder;
+        font-size: 1.2em;
+    }
+  }
+  .hide{
+      max-width: 10px;
+      min-width: 10px;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+  }
+  .show{
+    position: fixed;
+    background-color: #242424;
+  }
 }

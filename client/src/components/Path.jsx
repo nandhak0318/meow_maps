@@ -7,17 +7,17 @@ const func = ()=>{
     const {courseName,chapterName,lessonName} = useParams()
     return <div className='path'>
       <Link to={'/'}>
-        <p>{`Home>`}</p>
+        <p style={{"color":"rgba(255, 255, 255, .87)"}}>{`Home>`}</p>
       </Link>
       {courseName?<Link to={`/course/${courseName}`}>
-        <p style={{"color":"rgba(255, 255, 255, .87);"}}>{`Course>`}</p>
+        <p style={{"color":"rgba(255, 255, 255, .87)"}}>{`Course>`}</p>
       </Link>: ''}
       {chapterName ? <Link to={`/course/${courseName}/chapter/${chapterName}`}>
-        <p>{`Chapter>`}</p>
+        <p style={{"color":"rgba(255, 255, 255, .87)"}}> {`Chapter>`}</p>
       </Link>: ''}
       
       {lessonName ? <Link to={`/course/${courseName}/chapter/${chapterName}/lesson/${lessonName}`}>
-        <p>{`Lesson>`}</p>
+        <p style={{"color":"rgba(255, 255, 255, .87)"}}>{`Lesson>`}</p>
       </Link> : ''}
        
       </div>
