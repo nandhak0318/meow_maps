@@ -12,9 +12,9 @@ const func = ()=>{
       {courseName?<Link to={`/course/${courseName}`}>
         <p style={{"color":"rgba(255, 255, 255, .87)"}}>{`Course>`}</p>
       </Link>: ''}
-      {chapterName ? <Link to={`/course/${courseName}/chapter/${chapterName}`}>
+      {/* {chapterName ? <Link to={`/course/${courseName}/chapter/${chapterName}`}>
         <p style={{"color":"rgba(255, 255, 255, .87)"}}> {`Chapter>`}</p>
-      </Link>: ''}
+      </Link>: ''} */}
       
       {lessonName ? <Link to={`/course/${courseName}/chapter/${chapterName}/lesson/${lessonName}`}>
         <p style={{"color":"rgba(255, 255, 255, .87)"}}>{`Lesson>`}</p>

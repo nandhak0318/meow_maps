@@ -110,6 +110,7 @@ max-height: 91vh;
   }
   .show{
     position: fixed;
+    z-index: 1000;
     background-color: #242424;
   }
 }
