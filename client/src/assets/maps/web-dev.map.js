@@ -13,17 +13,26 @@ export default {
         {
           type: "video",
           tittle: "how internet works by vox",
-          link: "https://www.youtube.com/watch?v=TNQsmPf24go"
+          link: "g0sYCahy_vg"
         },
         {
           type: "video",
           tittle: "what is internet - code.org",
-          link: "https://www.youtube.com/watch?v=Dxcc6ycZ73M"
+          link: "MrzkoLKpgLU"
         },
         {
-          type: "link",
+          type: "links",
           tittle: "what is internet - medium blog",
-          link: "https://medium.com/swlh/how-does-internet-work-e18b09151c5c"
+          links: [{
+            tittle: "ikasf",
+            link: "https://medium.com/swlh/how-does-internet-work-e18b09151c5c"
+          }, {
+            tittle: "asdf",
+            link: "https://medium.com/swlh/how-does-internet-work-e18b09151c5c"
+          } ,{
+            tittle: "ikaslkasdasf",
+            link: "https://medium.com/swlh/how-does-internet-work-e18b09151c5c"
+          }]
         }
       ]
     },
@@ -32,7 +41,8 @@ export default {
       lessons:[
         {
         type:"video",
-        tittle: "html nenba"
+        tittle: "html nenba",
+        link: "bB-HQgHE5Gc"
         }
       ]
     }

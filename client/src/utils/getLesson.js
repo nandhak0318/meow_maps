@@ -7,10 +7,27 @@ const getFirstLesson = (course) => {
   }
 }
 
+const getCurrentLesson = (course, currentLesson) => {
+  const data = courses.find(x => x.code == course)
+  let chapt = {
+  }
+  for (let i = 0; i < data.chapters.length; i++) {
+    for (let j = 0; j < data.chapters[i].lessons.length; j++) {
+      if (currentLesson == data.chapters[i].lessons[j].tittle) {
+        chapt = {
+          ...data.chapters[i].lessons[j]
+        }
+        return chapt
+      }
+    }
+  }
+  return chapt
+}
+
 
 const getPreviousLesson = (course, currentLesson) => {
   const data = courses.find(x => x.code == course)
-  let prevChapt = {chapterName: '',lessonName: ''}
+  let prevChapt = { chapterName: '', lessonName: '' }
   for (let i = 0; i < data.chapters.length; i++) {
     for (let j = 0; j < data.chapters[i].lessons.length; j++) {
       if (currentLesson == data.chapters[i].lessons[j].tittle) {
@@ -32,27 +49,30 @@ const getPreviousLesson = (course, currentLesson) => {
 
 }
 
+
+
+
 const getNextLesson = (course, currentLesson) => {
   const data = courses.find(x => x.code == course)
   let nextChap = {
     chapterName: '',
     lessonName: ''
   }
-  const finalChap = data.chapters.length -1
-  const finalLesson = data.chapters[finalChap].lessons.length-1
+  const finalChap = data.chapters.length - 1
+  const finalLesson = data.chapters[finalChap].lessons.length - 1
   for (let i = 0; i < data.chapters.length; i++) {
     for (let j = 0; j < data.chapters[i].lessons.length; j++) {
       if (currentLesson == data.chapters[i].lessons[j].tittle) {
-        if(i==finalChap&&j==finalLesson){
+        if (i == finalChap && j == finalLesson) {
           return nextChap
         }
-        const theEnd = data.chapters[i].lessons.length -1;
-        if(j == theEnd){
-          nextChap.lessonName =  data.chapters[i + 1].lessons[0].tittle
+        const theEnd = data.chapters[i].lessons.length - 1;
+        if (j == theEnd) {
+          nextChap.lessonName = data.chapters[i + 1].lessons[0].tittle
           nextChap.chapterName = data.chapters[i + 1].tittle
           return nextChap
-        }else{
-          nextChap.lessonName =   data.chapters[i].lessons[j+1].tittle
+        } else {
+          nextChap.lessonName = data.chapters[i].lessons[j + 1].tittle
           nextChap.chapterName = data.chapters[i].tittle
           return nextChap
         }
@@ -63,6 +83,7 @@ const getNextLesson = (course, currentLesson) => {
 
 export {
   getFirstLesson,
+  getCurrentLesson,
   getPreviousLesson,
   getNextLesson
 }
