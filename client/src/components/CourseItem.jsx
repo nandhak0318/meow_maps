@@ -3,14 +3,14 @@ import {Link} from 'react-router-dom'
 import '../assets/styles/card.scss'
 
 export default function CourseItem({thumbnail,tittle,code}) {
-  // const style = {
-  //   backgroundImage: 'url(images/'+thumbnail+')'
-  // } 
+  const style = {
+    backgroundImage: 'url(images/'+thumbnail+')'
+  } 
   return (
     <Link to={`course/${code}`}>
-    <section >
+    <section  >
       <div className="container">
-      <div className="card" >
+      <div className="card" style={style}>
         <div className="title">
       <h2 >{tittle}</h2>
     </div>

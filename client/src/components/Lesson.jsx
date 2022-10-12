@@ -40,6 +40,7 @@ const Video = ({id})=>{
   const {lessonName,courseName} = useParams()
 
   return <div className="hs-responsive-embed-youtube"><iframe src={`https://www.youtube.com/embed/${id}?rel=0&amp;showinfo=0`} frameBorder="0"  allowFullScreen=""></iframe>
+
   <Buttons extraClass={'inVideo'} courseName={courseName} lessonName={lessonName}/>
   </div>
 }
@@ -47,7 +48,7 @@ const Video = ({id})=>{
 const Links = ({links})=>{
   return <ul className='links'>
     {links.map((e)=>{
-      return <li className='linkItem'><a href={e.link}>e.tittle</a></li>
+      return <li className='linkItem'><a href={e.link} target="_blank">{e.tittle}</a></li>
     })}
   </ul>
 }
@@ -75,8 +76,9 @@ useEffect(() => {
 <div className="content">
   {!lesson?<h4>loading..</h4>:''}
   {lesson && lesson.type ==='video' ? <Video id={lesson.link}/>: '' }
-</div>
+   {lesson&&lesson.type=='links'? <Links links={lesson.links}/>:''}
    {lesson&&lesson.type!=='video'?<Buttons/> : ''}
+</div>
 </main>
 </div>
     </>

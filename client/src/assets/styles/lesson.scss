@@ -8,3 +8,15 @@ position: absolute;
 width: 100%!important;
 height: 100%!important;
 }
+
+.links{
+  list-style: none;
+  padding: 2em 0;
+}
+.linkItem{
+ padding: .3em 0 0 0;
+ a{
+   color: #cd1cf3 !important;
+   text-decoration: none;
+ }
+}

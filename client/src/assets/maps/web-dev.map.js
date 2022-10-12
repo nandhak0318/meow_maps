@@ -1,15 +1,14 @@
 export default {
-  tittle: "web dev roadmap",
+  tittle: "1-FRONT-END-BASICS",
   thumbnail:"web_dev_roadmap.gif",
-  desc:"A roadmap for become a web developer",
+  desc:"A roadmap for basic front-end stuffs",
   aurthor_note:"",
-  code:"web_dev_roadmap",
+  code: "1-front-end-basics",
   md:"web_dev.md",
   chapters:[
     {
       tittle: "The internet",
       lessons:[
-        // {type:"note"},
         {
           type: "video",
           tittle: "how internet works by vox",

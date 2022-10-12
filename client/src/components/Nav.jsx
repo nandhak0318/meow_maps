@@ -4,7 +4,7 @@ export default function Nav() {
   return (
     <nav className='nav'>
       <div className="nav_wrap">
-      <h1>Meow</h1>
+      <h1>Meow Maps</h1>
       </div>
     </nav>
   )
