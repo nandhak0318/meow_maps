@@ -1,4 +1,3 @@
-## HEY
 you may don't like the speaker of the video or something about it.
 
 if you don't understand the video just go to youtube and search for python tutorial start watch a random video.
