@@ -1,5 +1,3 @@
-## Heya
-
 So yeah Css i though
 it has one of the hardest learnign curve i gone through till now.
 
