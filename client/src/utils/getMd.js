@@ -5,4 +5,8 @@ const getMd = (course) => {
   return data.md
 }
 
+const getLessonMd = (course,lesson)=>{
+  
+}
+
 export default getMd
