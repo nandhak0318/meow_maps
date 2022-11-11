@@ -1,5 +1,3 @@
-# I guess
-
 So yeah I guess you'hv learned some CSS.
 
 Now it's time to do some real world examples.

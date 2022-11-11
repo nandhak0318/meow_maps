@@ -93,7 +93,7 @@ useEffect(()=>{
 <Bar/>
 <main className="mainc">
 <Path/>
-<h1 style={{'color':'white'}}>{lessonName}</h1>
+<h1 style={{'color':'white','fontSize':'1.4em'}}>{lessonName}</h1>
 <div className="content">
   {!lesson?<h4>loading..</h4>:''}
   {lesson && lesson.type ==='video' ? <Video list={lesson.list} id={lesson.link}/>: '' }
