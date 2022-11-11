@@ -1,7 +1,7 @@
 import webDevMap from './web-dev.map'
-import designingDevMap from './designing-dev.map'
+import porgrammingMap from './porgramming.map'
 const maps = [
-  webDevMap, designingDevMap
+   porgrammingMap, webDevMap,
 ]
 
 export default maps

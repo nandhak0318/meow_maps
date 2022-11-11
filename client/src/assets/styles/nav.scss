@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
 $primary-color: #B1B2FF;
 
 .nav{
@@ -10,6 +11,8 @@ $primary-color: #B1B2FF;
   padding: 1em 2em;
   margin: 0 auto;
   h1{
+   font-family: 'Fragment Mono', monospace;
+    font-size: 2em;
     color: white;
   }
 }

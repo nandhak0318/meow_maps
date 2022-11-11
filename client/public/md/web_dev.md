@@ -54,7 +54,7 @@ If you have any doubts you can reach me out on my instagram dm
 
 
 Instagram:
-@iam_nandha_kumar
+@nandxz.exe
 
 
 Github:

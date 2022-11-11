@@ -3,7 +3,7 @@ export default {
   thumbnail:"web_dev_roadmap.gif",
   desc:"A roadmap for basic front-end stuffs",
   aurthor_note:"",
-  code: "1-front-end-basics",
+  code: "2-front-end-basics",
   md:"web_dev.md",
   chapters:[
     {
@@ -12,37 +12,54 @@ export default {
         {
           type: "video",
           tittle: "how internet works by vox",
-          link: "g0sYCahy_vg"
+          link: "TNQsmPf24go"
         },
         {
           type: "video",
-          tittle: "what is internet - code.org",
-          link: "MrzkoLKpgLU"
+          tittle: "how internet work for web developers",
+          link: "e4S8zfLdLgQ"
         },
         {
-          type: "links",
-          tittle: "what is internet - medium blog",
-          links: [{
-            tittle: "ikasf",
-            link: "https://medium.com/swlh/how-does-internet-work-e18b09151c5c"
-          }, {
-            tittle: "asdf",
-            link: "https://medium.com/swlh/how-does-internet-work-e18b09151c5c"
-          } ,{
-            tittle: "ikaslkasdasf",
-            link: "https://medium.com/swlh/how-does-internet-work-e18b09151c5c"
-          }]
+          type: "video",
+          tittle: "how internet work for web developlers pt2",
+         link: "FTAPjr7vgxE"
         }
       ]
     },
     {
-      tittle: "the Html",
+      tittle: "The Html & CSS",
       lessons:[
         {
         type:"video",
-        tittle: "html nenba",
-        link: "bB-HQgHE5Gc"
-        }
+        tittle: "HTML & CSS Basic Playlist",
+        list:true,
+        link: "PLC3y8-rFHvwiLG5IsOAxDkacPGPVYZlOT"
+        },{
+          type:"video",
+          tittle: "flex-1",
+          link: "fYq5PXgSsbE"
+        },{
+          type:"video",
+          tittle: "flex-2",
+          link: "u044iM9xsWU"
+        },{
+          type:"md",
+          tittle: "A Css Talk",
+          md:"css_md.md"
+        },
+        {
+          type:"video",
+          tittle: "grid-1",
+          link: "jV8B24rSN5o"
+        },
+        {
+          type:"video",
+          tittle: "grid-2",
+          link: "rg7Fvvl3taU"
+        },
+        {type:"md",
+      tittle: "Try some stuff",
+    md: "web_dev_try.md"}
       ]
     }
   ]
